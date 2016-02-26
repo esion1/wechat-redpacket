@@ -23,7 +23,7 @@ Wechat定义方式
 'components' => [
   .....
   'wechat' => [
-    'class' => 'callmez\wechat\sdk\Wechat',
+    'class' => 'zhangyonghui\wechat\MpRedPacket',
     'appId' => '微信公众平台中的appid',
     'appSecret' => '微信公众平台中的secret',
     'token' => '微信服务器对接您的服务器验证token'
@@ -36,7 +36,7 @@ $wechat = Yii::$app->wechat;
 
 //多商户号使用方式
 $wechat = Yii::createObject([
-    'class' => 'zhangyonghui\wechat\sdk\MpRedPacket',
+    'class' => 'zhangyonghui\wechat\MpRedPacket',
     'key' => '商户平台中的秘钥',
     'mch_id' => '商户平台中的mch_id',
     'cai_path' => '商户平台中的证书安装路径'
