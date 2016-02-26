@@ -1,0 +1,22 @@
+{
+    "name": "zhangyonghui/yii2-wechat-redpacket",
+    "type": "yii2-extension",
+    "description": "The wechat module for the Yii framework",
+    "keywords": ["yii2", "wechat", "weixin"],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/g457165949/wechat-redpacket"
+    },
+    "authors": [
+        {
+            "name": "zhangyonghui",
+            "email": "457165949@qq.com"
+        }
+    ],
+    "require": {
+        "zhangyonghui/yii2-wechat-redpacket": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {"zhangyonghui\\wechat\\redpacket\\": ""}
+    }
+}
